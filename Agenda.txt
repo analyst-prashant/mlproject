@@ -1,6 +1,39 @@
+Agenda
+---------------------------------------------------------------------
+1 - Setup the github {Repository}
+	a) new environment
+	b) setup.py
+	c) requirements.txt
 
-1 - Setup the github {repository}
-	a- new environment
-	b- setup.py
-	c- requirements.txt
+Steps:
+1. Create new repository in github. Command line steps to follow will come up.
+
+2. Open cmd.
+
+3. Go to the respective directory in (base) environment.
+
+4. type code .
+	This will open VS code
+
+5. Open Terminal in VS code.
+
+6. Create environment( which has all the packages and repositories and by the end
+   of this project we can freeze the libraries from here itself)
+	conda create -p venv python==3.8.0 -y
+	conda activate venv
+
+7. We will clone this repository and sync with the github
+	Given in code sectio of github
+	Go to git config to check and change the configuration
+
+8. Add .gitignore file
+----------------------------------------------------------------------------------------
+
+Create setup.py and requirements.txt
+
+Write Code inside setup .py to capture requried libraries from requirements.txt
+
+<projectname>.egg-info gets created automatocally.
+
+
 
