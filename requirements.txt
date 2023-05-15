@@ -1,5 +1,8 @@
 pandas
 numpy
 seaborn
-datetime
--e .
+matplotlib
+scikit-learn
+catboost
+xgboost
+#-e .
